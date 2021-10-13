@@ -273,6 +273,7 @@
 		A919E233088D8C22008B8742 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = RawAudioFileComponent.exp;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -301,6 +302,7 @@
 		A919E234088D8C22008B8742 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = RawAudioFileComponent.exp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -328,6 +330,7 @@
 		A919E235088D8C22008B8742 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				EXPORTED_SYMBOLS_FILE = RawAudioFileComponent.exp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
