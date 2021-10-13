@@ -279,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Headers/CoreServices.h";
 				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=1";
+				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
 				OTHER_LDFLAGS = (
@@ -305,6 +306,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Headers/CoreServices.h";
 				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=1";
+				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
 				OTHER_LDFLAGS = (
@@ -331,6 +333,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Headers/CoreServices.h";
 				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=1";
+				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
 				OTHER_LDFLAGS = (
