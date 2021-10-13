@@ -5,22 +5,22 @@
 	<key>AudioComponents</key>
 	<array>
 		<dict>
+			<key>description</key>
+			<string>Raw Audio File Component (Demo)</string>
+			<key>factoryFunction</key>
+			<string>RawAudioFileComponentFactory</string>
 			<key>manufacturer</key>
 			<string>DEMO</string>
+			<key>name</key>
+			<string>Apple Sample Code: Raw AudioFile Component</string>
+			<key>sandboxSafe</key>
+			<true/>
 			<key>subtype</key>
 			<string>*RAW</string>
 			<key>type</key>
 			<string>afil</string>
-			<key>description</key>
-			<string>Raw Audio File Component (Demo)</string>
-			<key>name</key>
-			<string>Apple Sample Code: Raw AudioFile Component</string>
 			<key>version</key>
 			<integer>65536</integer>
-			<key>factoryFunction</key>
-			<string>RawAudioFileComponentFactory</string>
-			<key>sandboxSafe</key>
-			<true/>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
