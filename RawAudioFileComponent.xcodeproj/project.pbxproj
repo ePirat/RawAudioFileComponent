@@ -290,6 +290,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (
@@ -319,6 +320,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (
@@ -348,6 +350,7 @@
 					Carbon,
 				);
 				OTHER_REZFLAGS = "-I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers -D \"GEN_MISSING=0\" -D \"TARGET_REZ_CARBON_CFM=0\" -D \"TARGET_REZ_CARBON_MACHO=1\" -D \"AC_LOCALIZED=1\" -i /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/Headers -i /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers -d RC_ppc_$RC_ppc=1 -d ppc_$ppc=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (
