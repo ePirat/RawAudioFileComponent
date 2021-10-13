@@ -309,10 +309,6 @@
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Carbon,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
@@ -337,10 +333,6 @@
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Carbon,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
@@ -365,10 +357,6 @@
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "Info-RawAudioFileComponent.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Components";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Carbon,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Acme.audio.files.Components;
 				PRODUCT_NAME = RawAudioFileComponent;
 				SDKROOT = macosx;
