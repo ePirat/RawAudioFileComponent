@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B43F8FD27179CC8000997FE /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B43F8FC27179CC7000997FE /* CAXException.cpp */; };
+		6B43F90427179DC8000997FE /* CACFArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B43F90227179DC8000997FE /* CACFArray.cpp */; };
+		6B43F90727179DD2000997FE /* CACFNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B43F90527179DD2000997FE /* CACFNumber.cpp */; };
+		6B43F90A27179DD9000997FE /* CACFString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B43F90927179DD9000997FE /* CACFString.cpp */; };
 		923E3BAF079CA50600B69FFE /* RawAudioFileComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EFF14E054083C30001BB24 /* RawAudioFileComponent.cpp */; };
 		923E3BBF079CA52300B69FFE /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFBFE8077112E800618CEA /* ComponentBase.cpp */; };
 		923E3BC1079CA52400B69FFE /* CACFDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EC146E70771177C00A143A4 /* CACFDictionary.cpp */; };
@@ -32,6 +36,15 @@
 		3EC146E70771177C00A143A4 /* CACFDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFDictionary.cpp; sourceTree = "<group>"; };
 		3EC146E80771177C00A143A4 /* CACFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFDictionary.h; sourceTree = "<group>"; };
 		6B43F8FA2717959B000997FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B43F8FB27179CC7000997FE /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		6B43F8FC27179CC7000997FE /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		6B43F8FE27179D17000997FE /* CAAutoDisposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAutoDisposer.h; sourceTree = "<group>"; };
+		6B43F90227179DC8000997FE /* CACFArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFArray.cpp; sourceTree = "<group>"; };
+		6B43F90327179DC8000997FE /* CACFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFArray.h; sourceTree = "<group>"; };
+		6B43F90527179DD2000997FE /* CACFNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFNumber.cpp; sourceTree = "<group>"; };
+		6B43F90627179DD2000997FE /* CACFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFNumber.h; sourceTree = "<group>"; };
+		6B43F90827179DD9000997FE /* CACFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFString.h; sourceTree = "<group>"; };
+		6B43F90927179DD9000997FE /* CACFString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFString.cpp; sourceTree = "<group>"; };
 		926C6908053E29910019889E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		92B0D23F053CDBF900C0396B /* RawAudioFileComponent.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = RawAudioFileComponent.exp; sourceTree = "<group>"; };
 		92EFF14D054083C30001BB24 /* RawAudioFileComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawAudioFileComponent.h; sourceTree = "<group>"; };
@@ -137,10 +150,19 @@
 		3EBFBDBF0771125D00618CEA /* PublicUtility */ = {
 			isa = PBXGroup;
 			children = (
+				6B43F8FE27179D17000997FE /* CAAutoDisposer.h */,
+				6B43F90227179DC8000997FE /* CACFArray.cpp */,
+				6B43F90327179DC8000997FE /* CACFArray.h */,
 				3EC146E70771177C00A143A4 /* CACFDictionary.cpp */,
 				3EC146E80771177C00A143A4 /* CACFDictionary.h */,
+				6B43F90527179DD2000997FE /* CACFNumber.cpp */,
+				6B43F90627179DD2000997FE /* CACFNumber.h */,
+				6B43F90927179DD9000997FE /* CACFString.cpp */,
+				6B43F90827179DD9000997FE /* CACFString.h */,
 				3EBFBE250771125E00618CEA /* CADebugMacros.cpp */,
 				3EBFBE260771125E00618CEA /* CADebugMacros.h */,
+				6B43F8FC27179CC7000997FE /* CAXException.cpp */,
+				6B43F8FB27179CC7000997FE /* CAXException.h */,
 			);
 			path = PublicUtility;
 			sourceTree = SOURCE_ROOT;
@@ -244,10 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B43F8FD27179CC8000997FE /* CAXException.cpp in Sources */,
 				923E3BAF079CA50600B69FFE /* RawAudioFileComponent.cpp in Sources */,
 				923E3BBF079CA52300B69FFE /* ComponentBase.cpp in Sources */,
 				923E3BC1079CA52400B69FFE /* CACFDictionary.cpp in Sources */,
 				923E3BC3079CA52500B69FFE /* CADebugMacros.cpp in Sources */,
+				6B43F90727179DD2000997FE /* CACFNumber.cpp in Sources */,
+				6B43F90A27179DD9000997FE /* CACFString.cpp in Sources */,
+				6B43F90427179DC8000997FE /* CACFArray.cpp in Sources */,
 				B86CE40E18F5D1C30085A4FD /* CompressedPacketTable.cpp in Sources */,
 				A982ABF80C0E0A0300F34C58 /* AudioFileComponentBase.cpp in Sources */,
 				A982ABF90C0E0A0300F34C58 /* AudioFileFormat.cpp in Sources */,
