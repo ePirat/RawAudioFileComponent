@@ -10,7 +10,7 @@
 			<key>factoryFunction</key>
 			<string>RawAudioFileComponentFactory</string>
 			<key>manufacturer</key>
-			<string>DEMO</string>
+			<string>EPIR</string>
 			<key>name</key>
 			<string>Apple Sample Code: Raw AudioFile Component</string>
 			<key>sandboxSafe</key>
